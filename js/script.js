@@ -13,5 +13,5 @@
     document.getElementById('cognomi_utenti').innerHTML += '<li>' + cognomi[i] + '</li>';
   }
 // Scrivi anche la posizione della lista in cui il nuovo utente si trova.
-  var posizioneCognome = (cognomi.indexOf(inserisciCognome))
+  var posizioneCognome = (cognomi.indexOf(inserisciCognome) + 1 );
   document.getElementById('Posizione').innerHTML = (posizioneCognome) ;
